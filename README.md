@@ -16,3 +16,19 @@ In this case `inner` should be positioned below `outer`
 }
 
 ```
+
+## Articles
+
+The `article` tag represents an article which must be self contained. It should be possible to show the article without the surrounding page.
+
+This means, it should include i.e. the header:
+
+
+```HTML
+<article>
+  <h1>Yadda yadda</h1>
+  <p>
+    The awesome content here
+  </p>
+</article>
+```
