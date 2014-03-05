@@ -32,3 +32,7 @@ This means, it should include i.e. the header:
   </p>
 </article>
 ```
+
+## Absolute positioning
+
+When working with absolute positioning (`position: absolute`), then margin and padding don't have any effect and you can only work with `top`, `bottom`, `left` and `right`.
