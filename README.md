@@ -36,3 +36,15 @@ This means, it should include i.e. the header:
 ## Absolute positioning
 
 When working with absolute positioning (`position: absolute`), then margin and padding don't have any effect and you can only work with `top`, `bottom`, `left` and `right`.
+
+
+## Triangles
+
+```CSS
+  width: 0px;
+  height: 0px;
+  
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid white;
+```
